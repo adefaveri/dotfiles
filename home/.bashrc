@@ -51,6 +51,7 @@ alias atari='gnome-terminal -x bash -c "ssh root@atari.nodopiano.it";'
 alias commodore='gnome-terminal with-profile=server -x bash -c "ssh root@commodore.nodopiano.it";'
 alias firex_new='gnome-terminal -x bash -c "ssh root@192.168.0.232";' 
 alias firex_old='gnome-terminal -x bash -c "ssh root@192.168.0.18";'
-alias derigo='gnome-terminal -x bash -c "ssh vagrant@62.110.107.147";' 
+alias derigo_dev='gnome-terminal -x bash -c "ssh vagrant@192.168.1.40";' 
+alias derigo_prod='gnome-terminal -x bash -c "ssh vagrant@192.168.1.29";' 
 
 source "$HOME/.homesick/repos/homeshick/homeshick.sh"
